@@ -3,7 +3,7 @@ const urlPostRegion = "http://localhost:8080/region"
 
 function createRegion() {
     const region = {}
-    region.kode = "9234"
+    region.kode = "9874"
     region.navn = "KEAyy"
     region.href = "http:kea"
     return region
@@ -15,7 +15,7 @@ async function postDataAsJson(url, obj) {
     const fetchOptions = {
         method: "POST",
         headers: {
-            "Content-Type": "application/json",
+            "Content-Type": "Application/Json",
         },
         body: objectAsJsonString,
     };
